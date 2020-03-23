@@ -1,34 +1,18 @@
 package Productos;
 
+import java.util.Map;
+import java.util.TreeMap;
+
 public class Product {
 
-	private int codigo;
-	private double precio;
+	Map<Integer, String> producto = new TreeMap<Integer, String>();
 	private String udMedida;
 	private int stock;
-	
-	public Product(int codigo, double precio, String udMedida, int stock) {
-		super();
-		this.codigo = codigo;
-		this.precio = precio;
+
+	public Product(Map<Integer, String> producto, String udMedida, int stock) {
+		this.producto = producto;
 		this.udMedida = udMedida;
 		this.stock = stock;
-	}
-
-	public int getCodigo() {
-		return codigo;
-	}
-
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
-	}
-
-	public double getPrecio() {
-		return precio;
-	}
-
-	public void setPrecio(double precio) {
-		this.precio = precio;
 	}
 
 	public String getUdMedida() {
@@ -46,5 +30,5 @@ public class Product {
 	public void setStock(int stock) {
 		this.stock = stock;
 	}
-	
+
 }
