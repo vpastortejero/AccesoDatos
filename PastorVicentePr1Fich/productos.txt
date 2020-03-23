@@ -1,0 +1,28 @@
+vaso200cc
+1.05
+pack de 6
+87
+plato_llano
+2.8
+unidad
+120
+fuente_mediana
+3.75
+unidad
+10
+cuchara_sopa
+0.85
+pack de 3
+15
+amoniaco
+0.95
+litro
+34
+plato_hondo
+2.5
+unidad
+72
+tenedor
+1.15
+pack de 3
+30
