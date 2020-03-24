@@ -5,14 +5,24 @@ import java.util.TreeMap;
 
 public class Product {
 
-	Map<Integer, String> producto = new TreeMap<Integer, String>();
+	Map<Integer, String> product = new TreeMap<Integer, String>();
+	private Double precio;
 	private String udMedida;
 	private int stock;
 
-	public Product(Map<Integer, String> producto, String udMedida, int stock) {
-		this.producto = producto;
+	public Product(Map<Integer, String> product, Double precio, String udMedida, int stock) {
+		this.product = product;
+		this.precio = precio;
 		this.udMedida = udMedida;
 		this.stock = stock;
+	}
+	
+	public Double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(Double precio) {
+		this.precio = precio;
 	}
 
 	public String getUdMedida() {
